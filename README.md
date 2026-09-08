@@ -43,15 +43,15 @@ The study analyzes potential changes in distances to grocery retail locations in
 
 ### 1.) GIP Network Preprocessing
 
-Input: GIP Open Data (Austria's national road network)
-Tool: Python (separate repository: gip-access-bitmask)
-Output: Processed GeoPackage with network topology
+<br>Input: GIP Open Data (Austria's national road network)
+<br>Tool: Python (separate repository: gip-access-bitmask)
+<br>Output: Processed GeoPackage with network topology
 
 ### 2.) Population Raster Preparation
 
-Input: GHSL 100m population raster
-Tool: Python
-Output: Points shapefile representing population distribution
+<br>Input: GHSL 100m population raster
+<br>Tool: Python
+<br>Output: Points shapefile representing population distribution
 
 ### 3.) OD-Matrix Routing
 
