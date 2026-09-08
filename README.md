@@ -29,5 +29,7 @@ influences the choice of transportation for grocery shopping.
 <figcaption>Absolute change in walking times per municipality, 2013–2023 (Source: Statistics Austria; own calculation, 2024).</figcaption>
 </figure>
 
+# Data Privacy Note
+Supermarket locations are subject to an NDA (trade secret). All other data (traffic graphs, population data, geographical boundaries, etc.) are publicly available.
 
    
