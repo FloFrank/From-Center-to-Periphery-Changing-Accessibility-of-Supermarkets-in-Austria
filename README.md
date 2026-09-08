@@ -36,6 +36,6 @@ Supermarket locations are subject to an NDA (trade secret). All other data (traf
 ## Research Question
 Has the distance and time required for the population to travel from their place of residence to the nearest grocery retail locations changed over a certain period? Such changes could be attributable to the relocation of grocery retail outlets from town centers to the outskirts.
 
-__Have travel times and distances for the Austrian population between their places of residence and grocery retail locations changed due to developments in peripheral areas?__
+__Have travel times and distances for the Austrian population between their places of residence and grocery retail locations changed due to developments in peripheral areas?__ /n
 The study analyzes potential changes in distances to grocery retail locations in peripheral settlement areas, as well as the resulting effects on accessibility and travel times over time.
 The aim of the investigation is to determine whether—and to what extent—changes in locations and travel times have occurred within a defined period.
