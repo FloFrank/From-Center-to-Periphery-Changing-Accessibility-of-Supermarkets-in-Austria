@@ -42,39 +42,113 @@ The study analyzes potential changes in distances to grocery retail locations in
 ## Workflow
 
 ### 1.) GIP Network Preprocessing
-
 <br>Input: GIP Open Data (Austria's national road network)
 <br>Tool: Python (separate repository: gip-access-bitmask)
 <br>Output: Processed GeoPackage with network topology
 
 ### 2.) Population Raster Preparation
-
 <br>Input: GHSL 100m population raster
 <br>Tool: Python
 <br>Output: Points shapefile representing population distribution
 
 ### 3.) OD-Matrix Routing
-
-Input: GIP network, population points, supermarket locations
-Tool: ArcGIS Pro (Network Analyst)
-Output: Travel time matrix (all population points to nearest supermarkets)
+<br>Input: GIP network, population points, supermarket locations
+<br>Tool: ArcGIS Pro (Network Analyst)
+<br>Output: Travel time matrix (all population points to nearest supermarkets)
 
 ### 4.) Matrix Aggregation
-
-Input: OD-Matrix results
-Tool: Python
-Output: Aggregated accessibility metrics by municipality and spatial typology
+<br>Input: OD-Matrix results
+<br>Tool: Python
+<br>Output: Aggregated accessibility metrics by municipality and spatial typology
 
 ### 5.) Cartography
-
-Input: Aggregated data, administrative boundaries
-Tool: QGIS and R
-Output: PDF maps and visualizations
+<br>Input: Aggregated data, administrative boundaries
+<br>Tool: QGIS and R
+<br>Output: PDF maps and visualizations
 
 ### 6.) Spatial Statistics
+<br>Input: Aggregated accessibility data with covariates
+<br>Tool: R (OLS regression, spatial autocorrelation analysis)
+<br>Output: Statistical results, spatial inequality measures
 
-Input: Aggregated accessibility data with covariates
-Tool: R (OLS regression, spatial autocorrelation analysis)
-Output: Statistical results, spatial inequality measures
+
+## Project Structure
+
+root/
+  |
+  ├── 00_gip_preprocessing/
+  |   └── gip_data/
+  |       └── gip_links_austria.gpkg
+  |
+  ├── 01_population_raster_prep/
+  |   ├── python_scripts/
+  |   |   ├── 01_download_raster.py
+  |   |   ├── 02_extract_population.py
+  |   |   └── 03_prepare_od_points.py
+  |   └── output/
+  |       └── population_points.shp
+  |
+  ├── 02_arcgis_routing/
+  |   ├── arcgis_scripts/
+  |   |   ├── 01_create_network.py
+  |   |   ├── 02_od_matrix_analysis.py
+  |   |   └── 03_export_results.py
+  |   └── documentation/
+  |       ├── arcgis_workflow.pdf
+  |       └── network_analyst_settings.md
+  |
+  ├── 03_od_matrix_processing/
+  │   ├── postgis/
+  │   │   ├── 01_load_od_matrix.sql
+  │   │   ├── 02_aggregation.sql
+  │   │   ├── 03_raumtypologie.sql
+  │   │   └── 04_statistics.sql
+  │   └── output/
+  │       ├── od_matrix_aggregated.csv
+  │       ├── accessibility_by_municipality.csv
+  │       └── accessibility_by_raumtyp.csv
+  |
+  ├── 04_qgis_cartography/
+  |   ├── qgis_projects/
+  |   |   ├── accessibility_map_2013.qgz
+  |   |   ├── accessibility_map_2023.qgz
+  |   |   └── shift_analysis.qgz
+  |   └── exports/
+  |       ├── accessibility_2013.pdf
+  |       ├── accessibility_2023.pdf
+  |       └── shift_analysis.pdf
+  |
+  ├── 05_r_spatial_statistics/
+  |   ├── r_scripts/
+  |   |   ├── 01_ols_regression.R
+  |   |   ├── 02_spatial_autocorr.R
+  |   |   ├── 03_geographically_weighted.R
+  |   |   └── 04_results_summary.R
+  |   └── output/
+  |       ├── ols_results.txt
+  |       ├── spatial_stats.csv
+  |       └── residuals_map.gpkg
+  |
+  ├── results/
+  |   ├── maps/
+  |   |   ├── accessibility_2013.html
+  |   |   ├── accessibility_2023.html
+  |   |   └── shift_analysis.html
+  |   └── statistics/
+  |       ├── ols_summary.csv
+  |       └── spatial_autocorrelation.csv
+  |
+  ├── docs/
+  |   ├── methodology.md
+  |   ├── data_sources.md
+  |   ├── workflow_detailed.md
+  |   └── arcgis_setup.md
+  |
+  ├── .gitignore
+  ├── requirements.txt
+  ├── requirements_r.txt
+  └── README.md
+
+---
 
 
