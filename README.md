@@ -20,7 +20,13 @@ influences the choice of transportation for grocery shopping.
 
 <figure>
 <img width="7015" height="4960" alt="gemeinden_veraenderung_gewichtet" src="https://github.com/user-attachments/assets/12244298-7ee0-489c-85b1-9270dbf97eb2" />
- <figcaption>Rate of change in walking time, 2013–2023 (Source: Statistics Austria; own calculation, 2024)</figcaption>
+<figcaption>Rate of change in walking time, 2013–2023 (Source: Statistics Austria; own calculation, 2024)</figcaption>
+</figure>
+
+
+<figure>
+<img width="7015" height="4960" alt="gemeinden_veraenderung_gewichtet_absolut" src="https://github.com/user-attachments/assets/6046fb65-e183-4ada-8b7c-0e39d9bb4b8f" />
+<figcaption>Absolute change in walking times per municipality, 2013–2023 (Source: Statistics Austria; own calculation, 2024).</figcaption>
 </figure>
 
 
