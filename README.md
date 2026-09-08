@@ -58,7 +58,7 @@ The study analyzes potential changes in distances to grocery retail locations in
 
 ### 4.) Matrix Aggregation
 <br>Input: OD-Matrix results
-<br>Tool: Python
+<br>Tool: PostGIS/SQL
 <br>Output: Aggregated accessibility metrics by municipality and spatial typology
 
 ### 5.) Cartography
