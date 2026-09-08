@@ -73,7 +73,7 @@ The study analyzes potential changes in distances to grocery retail locations in
 
 
 ## Project Structure
-
+```
 root/
   |
   ├── 00_gip_preprocessing/
@@ -148,7 +148,7 @@ root/
   ├── requirements.txt
   ├── requirements_r.txt
   └── README.md
-
+```
 ---
 
 
