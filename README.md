@@ -36,6 +36,45 @@ Supermarket locations are subject to an NDA (trade secret). All other data (traf
 ## Research Question
 Has the distance and time required for the population to travel from their place of residence to the nearest grocery retail locations changed over a certain period? Such changes could be attributable to the relocation of grocery retail outlets from town centers to the outskirts.
 
-__Have travel times and distances for the Austrian population between their places of residence and grocery retail locations changed due to developments in peripheral areas?__ /n
-The study analyzes potential changes in distances to grocery retail locations in peripheral settlement areas, as well as the resulting effects on accessibility and travel times over time.
-The aim of the investigation is to determine whether—and to what extent—changes in locations and travel times have occurred within a defined period.
+__Have travel times and distances for the Austrian population between their places of residence and grocery retail locations changed due to developments in peripheral areas?__ 
+The study analyzes potential changes in distances to grocery retail locations in peripheral settlement areas, as well as the resulting effects on accessibility and travel times over time. The aim of the investigation is to determine whether—and to what extent—changes in locations and travel times have occurred within a defined period.
+
+## Workflow
+
+### 1.) GIP Network Preprocessing
+
+Input: GIP Open Data (Austria's national road network)
+Tool: Python (separate repository: gip-access-bitmask)
+Output: Processed GeoPackage with network topology
+
+### 2.) Population Raster Preparation
+
+Input: GHSL 100m population raster
+Tool: Python
+Output: Points shapefile representing population distribution
+
+### 3.) OD-Matrix Routing
+
+Input: GIP network, population points, supermarket locations
+Tool: ArcGIS Pro (Network Analyst)
+Output: Travel time matrix (all population points to nearest supermarkets)
+
+### 4.) Matrix Aggregation
+
+Input: OD-Matrix results
+Tool: Python
+Output: Aggregated accessibility metrics by municipality and spatial typology
+
+### 5.) Cartography
+
+Input: Aggregated data, administrative boundaries
+Tool: QGIS and R
+Output: PDF maps and visualizations
+
+### 6.) Spatial Statistics
+
+Input: Aggregated accessibility data with covariates
+Tool: R (OLS regression, spatial autocorrelation analysis)
+Output: Statistical results, spatial inequality measures
+
+
