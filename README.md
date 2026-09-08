@@ -17,3 +17,11 @@ This work examines how the settlement of grocery retail on the outskirts of the 
 lement structures in Austria between 2013 and 2023 has affected the population, what
 consequences this development has for the Austrian population, and to what extent it
 influences the choice of transportation for grocery shopping.
+
+<figure>
+<img width="7015" height="4960" alt="gemeinden_veraenderung_gewichtet" src="https://github.com/user-attachments/assets/12244298-7ee0-489c-85b1-9270dbf97eb2" />
+ <figcaption>Rate of change in walking time, 2013–2023 (Source: Statistics Austria; own calculation, 2024)</figcaption>
+</figure>
+
+
+   
