@@ -1,0 +1,19 @@
+# From-Center-to-Periphery-Changing-Accessibility-of-Supermarkets-in-Austria
+
+
+The centers of municipalities, cities, or neighborhoods served as central points where
+services, retail stores, and residential areas were concentrated. However, in recent years,
+there has been a decentralization of these polycentric structures. In particular, the retail
+food sector has increasingly shifted from city and town centers to peripheral areas of
+settlement structures. The main causes of this development are the changing shopping
+habits and increasing motorization, which allow people to cover larger distances with ease.
+This development has far-reaching consequences. In addition to the increasing land con-
+sumption, the distances that need to be covered for grocery shopping are also changing.
+When grocery stores are no longer located in the center but on the outskirts, residents
+are forced to take longer trips. This influences the choice of transportation, as longer
+distances are often covered by motorized individual transport. This particularly affects ol-
+der people, who, due to limited mobility, are often unable to walk long distances or use a car.
+This work examines how the settlement of grocery retail on the outskirts of the sett-
+lement structures in Austria between 2013 and 2023 has affected the population, what
+consequences this development has for the Austrian population, and to what extent it
+influences the choice of transportation for grocery shopping.
