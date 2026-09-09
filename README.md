@@ -42,12 +42,12 @@ The study analyzes potential changes in distances to grocery retail locations in
 ## Workflow and Project Structure
 
 ### 1.) GIP Network Preprocessing
-Input: GIP Open Data (Austria's national road network)
+<br>Input: GIP Open Data (Austria's national road network)
 <br>Tool: Python (separate repository: austria-gip-decoder)
 <br>Output: Processed shp-file with network topology
 
 ### 2.) Population Raster Preparation
-<br>Input: 100m population raster
+<li <br>Input: 100m population raster
 <br>Tool: Python
 <br>Output: Points shapefile representing population distribution
 
