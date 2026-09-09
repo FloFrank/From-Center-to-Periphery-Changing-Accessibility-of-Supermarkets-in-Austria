@@ -47,11 +47,11 @@ The study analyzes potential changes in distances to grocery retail locations in
  - Output: Processed shp-file with network topology
 
 ### 2.) Population Raster Preparation
--  Input: 100m population raster
+- Input: 100m population raster
 - Tool: Python
 - Output: Points shapefile representing population distribution
 
-### 3.) OD-Matrix Routing
+### 3.) Calculate OD-Matrix 
 - Input: GIP network, population points, supermarket locations
 - Tool: ArcGIS Pro (Network Analyst)
 - Output: Travel time matrix (all population points to nearest supermarkets)
@@ -61,12 +61,17 @@ The study analyzes potential changes in distances to grocery retail locations in
 - Tool: PostGIS/SQL
 - Output: Aggregated accessibility metrics by municipality and spatial typology
 
-### 5.) Cartography
-- Input: Aggregated data, administrative boundaries
-- Tool: QGIS and R
+### 5.) Distance: Population center – Supermarket
+- Population center per municipality, supermarket location
+- Tool: PostGIS
+- Output: Change in the straight-line distance from the population center to the nearest supermarket per municipality
+
+### 6.) Cartography
+- Input: Aggregated data, administrative boundaries etc.
+- Tool: QGIS, ArcGIS Pro and R
 - Output: PDF maps and visualizations
 
-### 6.) Spatial Statistics
+### 7.) Spatial Statistics
 - Input: Aggregated accessibility data with covariates
 - Tool: R (OLS regression, spatial autocorrelation analysis)
 - Output: Statistical results, spatial inequality measures
