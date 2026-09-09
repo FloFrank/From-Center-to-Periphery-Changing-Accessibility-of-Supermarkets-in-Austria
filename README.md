@@ -42,32 +42,32 @@ The study analyzes potential changes in distances to grocery retail locations in
 ## Workflow and Project Structure
 
 ### 1.) GIP Network Preprocessing
-<br>Input: GIP Open Data (Austria's national road network)
-<br>Tool: Python (separate repository: austria-gip-decoder)
-<br>Output: Processed shp-file with network topology
+ - Input: GIP Open Data (Austria's national road network)
+ - Tool: Python (separate repository: austria-gip-decoder)
+ - Output: Processed shp-file with network topology
 
 ### 2.) Population Raster Preparation
-<li <br>Input: 100m population raster
-<br>Tool: Python
-<br>Output: Points shapefile representing population distribution
+-  Input: 100m population raster
+- Tool: Python
+- Output: Points shapefile representing population distribution
 
 ### 3.) OD-Matrix Routing
-<br>Input: GIP network, population points, supermarket locations
-<br>Tool: ArcGIS Pro (Network Analyst)
-<br>Output: Travel time matrix (all population points to nearest supermarkets)
+- Input: GIP network, population points, supermarket locations
+- Tool: ArcGIS Pro (Network Analyst)
+- Output: Travel time matrix (all population points to nearest supermarkets)
 
 ### 4.) Matrix Aggregation
-<br>Input: OD-Matrix results
-<br>Tool: PostGIS/SQL
-<br>Output: Aggregated accessibility metrics by municipality and spatial typology
+- Input: OD-Matrix results
+- Tool: PostGIS/SQL
+- Output: Aggregated accessibility metrics by municipality and spatial typology
 
 ### 5.) Cartography
-<br>Input: Aggregated data, administrative boundaries
-<br>Tool: QGIS and R
-<br>Output: PDF maps and visualizations
+- Input: Aggregated data, administrative boundaries
+- Tool: QGIS and R
+- Output: PDF maps and visualizations
 
 ### 6.) Spatial Statistics
-<br>Input: Aggregated accessibility data with covariates
-<br>Tool: R (OLS regression, spatial autocorrelation analysis)
-<br>Output: Statistical results, spatial inequality measures
+- Input: Aggregated accessibility data with covariates
+- Tool: R (OLS regression, spatial autocorrelation analysis)
+- Output: Statistical results, spatial inequality measures
 
