@@ -1,4 +1,4 @@
-# Auswahl der Lebensmittelhandelsbetrieb
+# Selection of Food Retail Companies
 
 The selection of food retail companies is based on the sales figures and retail space of the largest grocery retail enterprises in Austria. Another criterion for choosing the businesses was the product range offered. For instance, retail chains such as "Etsan" were not included because their product line is primarily tailored to a specific consumer group with a Turkish background. Similarly, "Denns" was excluded as this retail chain also targets a highly segmented audience (Aygün, 2018).
 
@@ -10,6 +10,8 @@ The extraction was carried out using PostGIS based on the company name, website 
 <figcaption>Sales revenue of grocery retail chains (Source: statista.com, own depiction 2024).</figcaption>
 </figure>
 
+<p>
+</p>
 
 <figure>
 <img width="395" height="347" alt="Bildschirmfoto 2026-09-15 um 15 38 53" src="https://github.com/user-attachments/assets/d5bb70c3-1396-46c3-8068-bbca6a8ed35a" />
