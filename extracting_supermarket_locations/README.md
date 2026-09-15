@@ -11,6 +11,9 @@ The extraction was carried out using PostGIS based on the company name, website 
 </figure>
 
 <p>
+
+
+
 </p>
 
 <figure>
