@@ -10,11 +10,7 @@ The extraction was carried out using PostGIS based on the company name, website 
 <figcaption>Sales revenue of grocery retail chains (Source: statista.com, own depiction 2024).</figcaption>
 </figure>
 
-<p>
-
-
-
-</p>
+<br />
 
 <figure>
 <img width="395" height="347" alt="Bildschirmfoto 2026-09-15 um 15 38 53" src="https://github.com/user-attachments/assets/d5bb70c3-1396-46c3-8068-bbca6a8ed35a" />
