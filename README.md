@@ -41,37 +41,42 @@ The study analyzes potential changes in distances to grocery retail locations in
 
 ## Workflow and Project Structure
 
-### 1.) GIP Network Preprocessing
+### 1.) Extracting supermarket locations
+- Input: Locations of all retail companies in Austria
+- Tool: PostGIS
+- Output: Supermarket locations in Austria
+
+### 2.) GIP Network Preprocessing
  - Input: GIP Open Data (Austria's national road network)
  - Tool: Python (separate repository: austria-gip-decoder)
  - Output: Processed shp-file with network topology
 
-### 2.) Population Raster Preparation
+### 3.) Population Raster Preparation
 - Input: 100m population raster
 - Tool: Python
 - Output: Points shapefile representing population distribution
 
-### 3.) Calculate OD-Matrix 
+### 4.) Calculate OD-Matrix 
 - Input: GIP network, population points, supermarket locations
 - Tool: ArcGIS Pro (Network Analyst)
 - Output: Travel time matrix (all population points to nearest supermarkets)
 
-### 4.) Matrix Aggregation
+### 5.) Matrix Aggregation
 - Input: OD-Matrix results
 - Tool: PostGIS/SQL
 - Output: Aggregated accessibility metrics by municipality and spatial typology
 
-### 5.) Distance: Population center – Supermarket
+### 6.) Distance: Population center – Supermarket
 - Population center per municipality, supermarket location
 - Tool: PostGIS
 - Output: Change in the straight-line distance from the population center to the nearest supermarket per municipality
 
-### 6.) Cartography
+### 7.) Cartography
 - Input: Aggregated data, administrative boundaries etc.
 - Tool: QGIS, ArcGIS Pro and R
 - Output: PDF maps and visualizations
 
-### 7.) Spatial Statistics
+### 8.) Spatial Statistics
 - Input: Aggregated accessibility data with covariates
 - Tool: R (OLS regression, spatial autocorrelation analysis)
 - Output: Statistical results, spatial inequality measures
