@@ -7,16 +7,8 @@ there has been a decentralization of these polycentric structures. In particular
 food sector has increasingly shifted from city and town centers to peripheral areas of
 settlement structures. The main causes of this development are the changing shopping
 habits and increasing motorization, which allow people to cover larger distances with ease.
-This development has far-reaching consequences. In addition to the increasing land con-
-sumption, the distances that need to be covered for grocery shopping are also changing.
-When grocery stores are no longer located in the center but on the outskirts, residents
-are forced to take longer trips. This influences the choice of transportation, as longer
-distances are often covered by motorized individual transport. This particularly affects ol-
-der people, who, due to limited mobility, are often unable to walk long distances or use a car.
-This work examines how the settlement of grocery retail on the outskirts of the sett-
-lement structures in Austria between 2013 and 2023 has affected the population, what
-consequences this development has for the Austrian population, and to what extent it
-influences the choice of transportation for grocery shopping.
+This development has far-reaching consequences. In addition to the increasing land consumption, the distances that need to be covered for grocery shopping are also changing.
+When grocery stores are no longer located in the center but on the outskirts, residents are forced to take longer trips. This influences the choice of transportation, as longer distances are often covered by motorized individual transport. This particularly affects older people, who, due to limited mobility, are often unable to walk long distances or use a car.This work examines how the settlement of grocery retail on the outskirts of the settlement structures in Austria between 2013 and 2023 has affected the population, whatconsequences this development has for the Austrian population, and to what extent it influences the choice of transportation for grocery shopping.
 
 <figure>
 <img width="7015" height="4960" alt="gemeinden_veraenderung_gewichtet" src="https://github.com/user-attachments/assets/12244298-7ee0-489c-85b1-9270dbf97eb2" />
@@ -28,6 +20,18 @@ influences the choice of transportation for grocery shopping.
 <img width="7015" height="4960" alt="gemeinden_veraenderung_gewichtet_absolut" src="https://github.com/user-attachments/assets/6046fb65-e183-4ada-8b7c-0e39d9bb4b8f" />
 <figcaption>Absolute change in walking times per municipality, 2013–2023 (Source: Statistics Austria; own calculation, 2024).</figcaption>
 </figure>
+
+<figure>
+<img width="1222" height="860" alt="Bildschirmfoto 2026-09-15 um 21 29 06" src="https://github.com/user-attachments/assets/fb5021b4-7353-4d35-ad26-96e7624d2239" />
+<figcaption>Travel times to the nearest grocery store 2023 (Source: bev.gv.at; Statistics Austria; basemap.org; own depiction 2025).</figcaption>
+</figure>
+
+<figure>
+<img width="1222" height="860" alt="Bildschirmfoto 2026-09-15 um 21 28 02" src="https://github.com/user-attachments/assets/1fb0e919-a345-4e27-87d5-88604b0328d6" />
+<figcaption>Walking times to the nearest grocery store 2023 (Source: bev.gv.at; Statistics Austria; basemap.org; own depiction 2025).</figcaption>
+</figure>
+
+
 
 ## Data Privacy Note
 Supermarket locations are subject to an NDA (trade secret). All other data (traffic graphs, population data, geographical boundaries, etc.) are publicly available.
