@@ -51,7 +51,7 @@ The study analyzes potential changes in distances to grocery retail locations in
  - Tool: Python (separate repository: austria-gip-decoder)
  - Output: Processed shp-file with network topology
 
-### 3.) Population Raster Preparation
+### 3.) Population Data Preparation
 - Input: 100m population raster
 - Tool: Python
 - Output: Points shapefile representing population distribution
